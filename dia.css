@@ -164,7 +164,7 @@ margin-bottom:100px ;
              padding:  0.5em 2.0em ; display: none;border-bottom: 0.50px solid rgb(255, 208, 0);
 
              }				 
-#navegador li:hover { background-color: #797878; }
+#navegador li:hover { background-color:rgb(255, 217, 0); }
 
 #navegador li a:link, #navegador li a:visited { 
 
