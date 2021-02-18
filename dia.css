@@ -227,7 +227,7 @@ margin-bottom:100px ;
          height:  100px;
          font-size: 70px;
          font-family: 'Segoe UI';
-         color:yellow
+         color:yellow;
 
         }
 
@@ -240,5 +240,6 @@ margin-bottom:100px ;
 .acd:hover{
     
   background-color:red;
+  
 
 }
