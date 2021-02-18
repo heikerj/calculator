@@ -211,8 +211,19 @@ img{
             
                          padding:  0.5em 2.0em; display: none;border-bottom: 0.50px solid  rgb(255, 208, 0);
             
-                         }				 
-            #navegador li:hover { background-color: rgb(255, 217, 0); }
+                         }	
+li#seccion1:hover{
+    
+        background-color:#ffff;
+        color:rgb(255, 217, 0);
+
+
+
+}
+            #navegador li:hover { 
+                background-color: rgb(255, 217, 0);
+
+}
             
             #navegador li a:link, #navegador li a:visited { 
                        color: #000000; text-decoration: none; }
