@@ -264,9 +264,9 @@ img{
 }
           
           
-          .ac {
+          .acd{
               color: red;
-              font-size: 30px;
+              
           }
 
           .result{
@@ -286,7 +286,9 @@ img{
      
 
        }
-          
+.acd:hover{
+    background-color:red;
+}
             
             
             
