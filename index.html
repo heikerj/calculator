@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  src="main.js"></script>
+    <link rel="stylesheet" href="dia.css" id="theme"><link/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="icon" href="sol.png" id="icon">
+    <script src="https://kit.fontawesome.com/929402471b.js" crossorigin="anonymous"></script>
+    <title  id="title">Calculator/tema claro</title>
+</head>
+<body>
+
+  <!--menu-->
+  <div id="navegador">
+    <ul>
+      <li id="seccion1" onclick="ver(1)" ondblclick="ocultar(1)">
+        <a href="#"><center>Menú</center></a>
+        <div id="subseccion1" onmouseover="ver(1)" onmouseout="ocultar(1)">
+
+          <!--switcher-->
+
+   <section>
+    <label class="botoncito">
+      <input type="checkbox" onclick="switchSheet()">
+      <span class="deslizadora"></span>
+   </label>
+   
+   <p  class="modo"  id="modo">activar tema oscuro</p>
+      </li>
+ 
+  </section>
+<!--picture-->
+  <div  class="imge" id="image">
+
+  <center><img src="sol.png" alt="sol" id="sol" ></center>
+
+  </div>
+  
+<!--banner-->
+
+    <h1  class="time"  class="animate__animated animate__fadeInUp" id="dia">estamos  en 
+      el modo claro</h1> 
+    
+    </form>
+<center><h2>calculator</h1></center>
+<br>
+    <!--calculator-->
+   <center> <table>
+   <td><tr><td colspan="4"><button id="result" class="result">0</button></tr></td>
+
+
+      <tr>
+        <td><main class="border"><button class="uno" onclick="add('1')">1</button></main></td>
+        <td><main class="border"><button class="uno" onclick="add('2')">2</button></main></td>
+        <td><main class="border"><button class="uno" onclick="add('3')">3</button></main></td>
+        <td><main class="border"><button class="uno" onclick="add('+')">+</button></main></td>
+      </tr>
+      <tr>
+        <td><main class="border"><button class="uno" onclick="add('4')">4</button></main></td>
+        <td><main class="border"><button class="uno" onclick="add('5')">5</button></main></td>
+        <td><main class="border"><button class="uno" onclick="add('6')">6</button></main></td>
+        <td><main class="border"><button class="uno" onclick="add('-')">-</button></main></td>
+      </tr>
+      <tr>
+          <td><main class="border"><button class="uno" onclick="add('7')">7</button></main></td>
+          <td><main class="border"><button class="uno" onclick="add('8')">8</button></main></td>
+          <td><main class="border"><button class="uno" onclick="add('9')">9</button></main></td>
+          <td><main class="border"><button class="uno" onclick="add('*')">*</button></main></td>
+      </tr>
+      <tr>
+        <td colspan="3"><main class="border"><button class="uno"onclick="add('0')">0</button></main></td>
+        <td colspan="3"><main class="border"><button class="uno"onclick="add('/')">/</button></main></td>         
+      </tr>
+      <tr>
+       <td colspan="2"><div class="border"><button onclick="del()" class="acd">AC</button></main></td>
+        <td><main class="border"><button class="uno"onclick="add('.')">.</button></main></td>
+        <td><main class="border"><button class="uno"onclick="calc()">=</button></main> </td>       
+      </tr>
+    
+    </table>
+</body>
+</html>
