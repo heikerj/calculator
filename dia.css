@@ -7,7 +7,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  border-left-color: rgb(255, 252, 51 0.1);
+  border-left-color: rgb(255, 252, 51, 0.1);
 
   animation: spin 2s ease infinte;
 }
