@@ -9,7 +9,7 @@
   border-radius: 50%;
   border-left-color: rgb(255, 252, 51, 0.9);
 
-  animation: spin 1s ease infinte;
+  animation: spin 1s ease infinite;
 }
 
 @keyframes spin {
